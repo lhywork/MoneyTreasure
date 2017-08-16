@@ -6,7 +6,7 @@
 	//验证JS
 	$('.page-button').on('click',function(){
 		var IdentityName = $('#IdentityName').val();
-		var IdentityStatus = $('#IdentityStatus').val();
+		var IdentityStatus = $('#IdentityStatus').html();
 		var IdCard = $('#IdCard').val();
 		if(!IdentityName){
 			util.toast("请输入您的姓名");
