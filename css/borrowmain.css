@@ -158,10 +158,9 @@
 .detail-mask .detail-container {
   position: absolute;
   width: 6.16rem;
-  height: 6.9rem;
   border-radius: 0.1rem;
   background: #fff;
-  top: 50%;
+  top: 42%;
   left: 50%;
   margin-top: -3.45rem;
   margin-left: -3.08rem;
@@ -175,8 +174,20 @@
   border-bottom: 1px solid #dcdcdc;
 }
 .detail-mask .detail-container .mask-group .title {
-  font-size: 0.28rem;
+  font-size: 0.26rem;
   color: #4f4f4f;
+}
+.detail-mask .detail-container .mask-group table {
+  text-align: center;
+  border: 1px solid #dcdcdc;
+  color: #4f4f4f;
+}
+.detail-mask .detail-container .mask-group tr {
+  border-bottom: 1px solid #dcdcdc;
+}
+.detail-mask .detail-container .mask-group td {
+  border-right: 1px solid #dcdcdc;
+  padding: 0.1rem 0.1rem;
 }
 .detail-mask .detail-container .mask-group .desc {
   margin-top: 0.1rem;
