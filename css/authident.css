@@ -190,3 +190,13 @@
   line-height: 0.34rem;
   font-size: 0.22rem;
 }
+.form-icon {
+  width: 0.14rem;
+  height: 0.22rem;
+  display: block;
+  background: url(../img/authcenter02.png) no-repeat;
+  background-size: 100%;
+  float: right;
+  margin-right: 0.05rem;
+  margin-top: 0.24rem;
+}
